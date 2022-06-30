@@ -22,7 +22,7 @@ img{
     max-width: 300px;
 }
 
-/* ---------- NAVBAR ---------- */
+/* -------------------- NAVBAR ------------------------------ */
 .navbar{
     display: flex;
     justify-content: center;
@@ -48,10 +48,10 @@ img{
     /* removes hyperlink style */
     text-decoration: none;
     color: #FCFCFE;
-    margin: 0px 30px
+    margin: 0px 30px;
 }
 
-/* ---------- HERO ---------- */
+/* -------------------- HERP ------------------------------ */
 .hero{
     display: flex;
     justify-content: center;
@@ -92,7 +92,7 @@ img{
     margin: 20px 10px;
 }
 
-/* ---------- ABOUT-ME ---------- */
+/* -------------------- ABOUT-ME ------------------------------ */
 .about-me{
     display: flex;
     justify-content: center;
@@ -110,18 +110,23 @@ img{
     align-self: start;
 }
 
-/* ---------- skills ---------- */
+.about-me p{
+    margin-top: 10px;
+}
+
+/* -------------------- SKILLS ------------------------------ */
 .skills{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: #fff;
+    background: lightgray;
 }
 
 .skills h2{
     font-size: 48px;
     color: #171717;
+    margin:10px 0px;
 }
 
 /* .skills .bg-image{
@@ -210,4 +215,18 @@ img{
 .skills p{
     font-size: 1rem;
     text-align: center;
+}
+
+/* -------------------- FOOTER ------------------------------ */
+.footer{
+    display: flex;
+    justify-content: center;
+    background: #171717;
+    padding: 20px 0px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #FCFCFE;
+    margin: 0px 30px
 }
