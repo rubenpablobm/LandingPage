@@ -200,6 +200,9 @@ img{
 .skills #office{
     background-image: url(https://img.icons8.com/fluency/344/microsoft-office-2019.png);
 }
+.skills #obs{
+    background-image: url(https://img.icons8.com/fluency/344/obs-studio.png);
+}
 
 .skills .box:hover{
     box-shadow: 0 0 0 100px rgba(0,0,0,0.5) inset;
