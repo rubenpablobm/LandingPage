@@ -12,3 +12,5 @@ My personal Landing Page, where you can find some of the projects I have worked 
 - Python logo: https://cdn-icons-png.flaticon.com/512/5968/5968350.png
 - MySQL logo: https://cdn-icons-png.flaticon.com/512/5968/5968313.png
 - Hitfilm Express logo: https://img.icons8.com/color/344/hitfilm-express.png
+- Microsoft Office Logo: https://img.icons8.com/fluency/344/microsoft-office-2019.png
+

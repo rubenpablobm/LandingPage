@@ -167,9 +167,9 @@ img{
 .skills .box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-wrap: wrap; */
     width: 200px;
     height: 200px;
     transition: 0.5s;
@@ -197,10 +197,12 @@ img{
 .skills #hitfilm{
     background-image: url(https://img.icons8.com/color/344/hitfilm-express.png);
 }
+.skills #office{
+    background-image: url(https://img.icons8.com/fluency/344/microsoft-office-2019.png);
+}
 
 .skills .box:hover{
     box-shadow: 0 0 0 100px rgba(0,0,0,0.5) inset;
-    border: none;
     border-radius: 50px;
 }
 
@@ -213,6 +215,9 @@ img{
 
 .skills h3,
 .skills p{
+    width: 200px;
+    height: 200px;
+    flex: 1 1 auto;
     opacity: 0;
     transform: scale(0);
     transition: 0.8s;
